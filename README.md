@@ -1,4 +1,5 @@
-  [th (10)](https://github.com/user-attachments/assets/3e7763f5-edb0-4368-aa80-af9454e5db62)
+![ML1-scaled](https://github.com/user-attachments/assets/7bbd3faf-07a0-474b-a0a4-2484a64758e6)
+
 
 In this assignment, we focused on preparing a housing dataset for machine learning by performing data preprocessing and feature engineering. 🏡📊 First, we loaded the dataset using Pandas and displayed the first five rows to get an overview of its structure, including column names, data types, and missing values. Next, we checked for missing values 🕵️‍♂️ and identified the columns that had missing entries. Instead of simply deleting these rows, we applied smart imputation techniques ✅. For numerical columns like LotFrontage and GarageYrBlt, we used the median value, while for categorical columns like MasVnrType, we filled in the most frequent category (mode). To ensure consistency, any remaining missing values were replaced with zero (0).
 
